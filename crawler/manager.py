@@ -12,6 +12,9 @@ class Manager(object):
             # 过滤非目标URL
             if self.base_url not in url:
                 continue
+            # 排序倒序数据，避免重复抓取
+            if '&limit=-20' in url:
+                continue
             # 去掉多余查询参数
             if '&percent_type=' in url:
                 url = url.replace('&percent_type=', '')
