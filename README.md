@@ -50,3 +50,9 @@
 
 ###### 词云（词频统计）
 ![](./analysis/images/wc.png)
+
+###### 15天短评量分布图
+![](./analysis/images/15天评论量分布图.png)
+
+###### 15天短评量走势图
+![](./analysis/images/15天评论量走势图.png)
