@@ -14,4 +14,4 @@ class Processor(object):
     def process(self, results):
         # print(results)
         crawler = self.client.get_database(self.database).get_collection(self.collection)
-        return crawler.insert(results)
+        return crawler.insert_many(results)
